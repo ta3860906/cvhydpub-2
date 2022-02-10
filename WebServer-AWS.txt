@@ -1,0 +1,36 @@
+===================
+
+Debin or Ubuntu:
+
+Apache2 Webserver:
+
+$sudo apt-get update -y
+$sudo apt-get install apache2 -y
+$sudo systemctl start apahce2
+$sudo systemctl status apache2
+$sudo systemctl stop apache2
+
+===========================
+
+Ubuntu or Debin
+
+Nginx--Webserver
+
+$sudo apt-get update -y
+$sudo apt-get install nginx -y
+$sudo systemctl start nginx
+$sudo systemctl status nginx
+$sudo systemctl stop nginx
+
+====================================
+Rehat or Centos or Amazon Linux: 
+
+Httpd--Web Server 
+
+$sudo yum update -y
+$sudo yum install httpd* -y
+$sudo systemctl start httpd
+$sudo systemctl status httpd
+$sudo systemctl stop http
+
+===============================
